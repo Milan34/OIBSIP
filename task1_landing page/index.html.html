@@ -1,0 +1,245 @@
+<html>
+	<head>
+		<title>Landing Page :</title>
+		<style>
+			body{
+			background-image:url('library page.JPEG');
+			background-size:cover;
+				}
+			h2{
+		position:relative;
+		font-size:90px;
+		color:#252839;
+		-webkit-text-stroke:0.3vh #383d52;
+		display:flex;
+		margin-left:20%;
+			}
+		h2:before{
+		content:attr(data-text);
+		position:absolute;
+		top:0;
+		left:0;
+		width:0;
+		color:22ff00;
+		white-space:nowrap;
+		-webkit-text-stroke:0.3vh indianred;
+		border-right:2px solid #01fe87;
+		overflow:hidden;
+		animation:Milan 6s linear infinite;
+		display:flex;
+					}
+		@keyframes Milan{
+		0%,10%,100%{
+		width:0;
+					}
+		70%,90%{
+		width:87%;
+				}
+							}
+			ul{
+			font-size:45px;
+			
+				}
+			li{
+			display:inline-block;
+			trasition:font-size;
+			color:yellow;
+				}
+			div{
+			display:none;
+			
+		
+				}
+				li:hover div{
+				display:block;
+				position:absolute;
+				font-size:55px;
+				color:red;
+								}
+				li:hover{
+				font-size:55px;
+				transition-duration:0.3s;
+							}
+				span:hover{
+				color:cyan;
+				
+				font-size:60px;
+				transition-duration:0.3s;
+							}
+			
+			
+			.t{
+			position:relative;
+			width:70px;
+			height:70px;
+			background-color:white;
+			box-shadow:0 10px 20px rgba(0,0,0,08);
+			border-radius:10px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			cursor:pointer;
+				}
+			.t span{
+			position:absolute;
+			width:40px;
+			height:4px;
+			background:#1863ff;
+			border-radius:4px;
+			transition:0.5s;
+					}
+			.t span:nth-child(1)
+			{
+				transform:translateY(-15px);
+				width:25px;
+				left:15px;
+			}
+			.t span:nth-child(2)
+			{
+				transform:translateY(15px);
+				width:15px;
+				left:15px;
+			}
+			.x{
+			position:relative;
+			width:70px;
+			height:70px;
+			float:right;
+			background-color:yellow;
+			box-shadow:0 10px 20px rgba(0,0,0,08);
+			border-radius:10px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			cursor:pointer;
+				}
+			.x span{
+			position:absolute;
+			width:40px;
+			height:4px;
+			background:#1863ff;
+			border-radius:4px;
+			transition:0.5s;
+					}
+			.x span:nth-child(1)
+			{
+				transform:translateY(-15px);
+				width:25px;
+				left:15px;
+			}
+			.x span:nth-child(2)
+			{
+				transform:translateY(15px);
+				width:15px;
+				left:15px;
+			}
+			.y{
+			position:relative;
+			width:70px;
+			height:70px;
+			background-color:black;
+			box-shadow:0 10px 20px rgba(0,0,0,08);
+			border-radius:10px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			cursor:pointer;
+				}
+			.y span{
+			position:absolute;
+			width:40px;
+			height:4px;
+			background:#1863ff;
+			border-radius:4px;
+			transition:0.5s;
+					}
+			.y span:nth-child(1)
+			{
+				transform:translateY(-15px);
+				width:25px;
+				left:15px;
+			}
+			.y span:nth-child(2)
+			{
+				transform:translateY(15px);
+				width:15px;
+				left:15px;
+			}
+			.b{
+			background-color:purple;
+			color:cyan;
+			width:30%;
+			font-size:45px;
+				}
+			.a{
+			border-style:30px;
+			
+				}
+			fieldset{
+			width:30%;
+			background-color:seagreen;
+						}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li>Home 
+				<div>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</li>&nbsp &nbsp &nbsp
+			<li>About 
+				<div>
+					
+				</div>
+			</li>&nbsp &nbsp &nbsp
+			<li>Learn
+				<div>
+					<a href="python.html" style="text-decoration:none;"><span>Python</span></a>
+					<a href="java2page.html" target="_blank" style="text-decoration:none;"><span>Java</span></a>
+					<a href="c++.html" target="_blank" style="text-decoration:none;"><span>C++</span></a>
+				</div>
+			</li>&nbsp &nbsp &nbsp
+			<li>Privacy 
+				<div>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</li>&nbsp &nbsp &nbsp
+			<li>
+		</ul>
+			<h2 data-text="Welcome To My Library :-">Welcome To My Library :-</h2>
+		<center><div class="t">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</center>
+			<div class="y">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="x">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div><br><br><br><br>
+			<center>
+			<fieldset>
+				
+					<form name="f1">
+						<legend align="center"><font color="red" size="10"><u><font color="blue">Registation</font></u></font></legend>
+						<font color="cyan" size="5">Name :</font>
+						<input type="text" name="num1" placeholder="Enter Your Name :"><br><br>
+						<font color="cyan" size="5">Number :</font>
+						<input type="Number" name="num2" max="1" min="10"><br><br>
+						<input type="submit" name="num3" value="Submit">
+						<input type="reset" name="num4" value="Clear">
+					</form>
+			</fieldset>
+	</body>
+</html>
